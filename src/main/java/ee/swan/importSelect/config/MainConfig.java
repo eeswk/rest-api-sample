@@ -8,6 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoModule("someValue")
 public class MainConfig {
+
     @Bean
     UseMyBean useMyBean() {
         return new UseMyBean();
